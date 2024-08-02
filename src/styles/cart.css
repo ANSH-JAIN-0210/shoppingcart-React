@@ -1,0 +1,72 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Article Styles */
+article {
+    width: 60%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Box Styles */
+.cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+.cart_box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+/* Cart Image Styles */
+.cart_img {
+    display: flex;
+    align-items: center;
+}
+
+.cart_img p {
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Total Styles */
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.total span:nth-child(1) {
+    color: #00aaff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.total span:nth-child(2) {
+    font-size: 2rem;
+    color: #ff5722;
+    font-weight: bold;
+}

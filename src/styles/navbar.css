@@ -1,0 +1,60 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Navigation Styles */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #343a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav_box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_shop {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00aaff;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.cart {
+    cursor: pointer;
+    position: relative;
+}
+
+.cart span:nth-child(1) {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.cart span:nth-child(2) {
+    padding: 2px 6px;
+    background-color: #ff5722;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 1rem;
+}

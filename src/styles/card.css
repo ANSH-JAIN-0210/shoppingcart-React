@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-image: url('path-to-music-background-image.jpg'); */
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styles */
+.cards {
+    width: 250px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.cards:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Image Box Styles */
+.image_box img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Details Styles */
+.details p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.details p:nth-child(2) {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.details p:nth-child(3) {
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Button Styles */
+.details button {
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00aaff;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details button:hover {
+    background-color: #0077cc;
+}
